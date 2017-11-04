@@ -1,0 +1,8 @@
+- name: install python3-pip
+  apt: name=python3-pip
+
+- name: install sanic
+  shell: pip3 install sanic
+
+- name: copy sample app files
+  copy: src=sanic-example dest=/root/

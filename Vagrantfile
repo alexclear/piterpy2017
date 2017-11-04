@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
 
     server.vm.provider :virtualbox do |v, override|
       v.gui = false
-      v.customize ["modifyvm", :id, "--cpus", 1]
+      v.customize ["modifyvm", :id, "--cpus", 2]
       v.customize ["modifyvm", :id, "--memory", 1024]
       #v.customize ["modifyvm", :id, "--cableconnected1", "on"]
       #v.customize ["modifyvm", :id, "--cableconnected2", "on"]
