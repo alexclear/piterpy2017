@@ -1,3 +1,9 @@
 [submodule "ansible/roles/etckeeper"]
 	path = ansible/roles/etckeeper
 	url = https://github.com/kofonfor/ansible-role-etckeeper.git
+[submodule "ansible/roles/pyflame"]
+	path = ansible/roles/pyflame
+	url = https://github.com/kofonfor/ansible-role-pyflame.git
+[submodule "ansible/roles/ab"]
+	path = ansible/roles/ab
+	url = https://github.com/kofonfor/ansible-role-ab.git
